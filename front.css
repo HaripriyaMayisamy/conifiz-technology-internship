@@ -1,0 +1,118 @@
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+nav{
+    width: 100%;
+    height: 75px;
+    line-height: 75px;
+    padding: 0px 100px;
+    position: fixed;
+    background-image: linear-gradient(#0c0247,#050505);
+}
+nav .logo p{
+    font-size: 40px;
+    font-weight: bold;
+    float: left;
+    color: white;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+    cursor: pointer;    
+}
+nav ul{
+    float: right;
+}
+nav li{
+    display: inline-block;
+    list-style: none;
+}
+nav li a{
+    font-size: 18px;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bolder;
+    text-transform: uppercase;
+    padding: 0px 10px;
+    color: whitesmoke;
+    text-decoration:none;
+}
+nav li a:hover{
+    color: #e9e521;
+    transition: all 0.4s ease-in 0s;
+}
+.content img{
+    height: 100vh;
+    width: 100%;
+    background-size: contain;
+    background-position: top;
+}
+button{
+    background-color:white;
+    text-decoration-color: rgb(3, 26, 46);
+    background-clip:border-box;
+}
+.con img{
+    height: 50%;
+    width:50%;
+    background-size: cover;
+    background-position: center;
+    
+}
+.con p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;  
+    cursor: pointer;
+}
+.heading h1{
+    text-align: center;
+    text-shadow: #d40303;
+    background-color: #ccc7e4e3;    
+}
+p{
+    text-align: justify;
+    text-emphasis-style: inherit;
+    text-size-adjust: 20px;
+}
+.about{
+    background-color: rgb(216, 225, 233);
+    background: local;
+}
+.about img{
+    height: 50%;
+    width: 50%;
+}
+.about p{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: italic;  
+    cursor: pointer;
+}
+.cointainer{
+    border-radius: 10px;
+    background-color: rgb(196, 231, 205);
+    padding: 100px;
+    border: 20px;
+    margin-left: 400px;
+    margin-right: 400px;
+    margin-top: 20px;
+    margin-bottom: 10px;
+}
+.placeheading{
+    text-align: center;
+    text-emphasis-color: 20px;
+}
+.form{
+    text-align: left;
+    text-shadow: #e9e521;
+}
+.container{
+    border-radius: 10px;
+    background-color: rgb(195, 238, 236);
+    padding: 100px;
+    border: 100px;
+    margin-left: 300px;
+    margin-right: 400px;
+    margin-top: 20px;
+    margin-bottom: 5px;
+}
